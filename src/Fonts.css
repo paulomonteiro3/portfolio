@@ -1,0 +1,35 @@
+:root {
+  --tipografia: "Poppins", sans-serif;
+}
+
+.font-1-xxl {
+  font: 600 4rem var(--tipografia), sans-serif
+}
+
+.font-1-xl {
+  font: 400 2rem var(--tipografia), sans-serif
+}
+
+.font-1-l {
+  font: 400 1.5rem var(--tipografia), sans-serif
+}
+
+.font-1-l-b {
+  font: 600 1.5rem var(--tipografia), sans-serif
+}
+
+.font-1-m {
+  font: 400 1.125rem var(--tipografia), sans-serif
+}
+
+.font-1-m-b {
+  font: 600 1.5rem var(--tipografia), sans-serif
+}
+
+.font-1-s {
+  font: 400 0.875rem var(--tipografia), sans-serif
+}
+
+.font-1-xs {
+  font: 400 0.75rem var(--tipografia), sans-serif
+}

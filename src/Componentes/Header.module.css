@@ -1,0 +1,37 @@
+.header {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.5fr;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  padding: 10px;
+  gap: 40px;
+}
+
+.nav a {
+  cursor: pointer;
+  position: relative;
+}
+
+.nav a::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: var(--color-p6);
+}
+
+.nav a:hover::after {
+  width: 100%;
+  transition: 0.3s;
+}
+
+.logo {
+  display: grid;
+  justify-self: center;
+  cursor: pointer;
+}
