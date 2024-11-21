@@ -35,3 +35,33 @@
   justify-self: center;
   cursor: pointer;
 }
+
+@media (max-width: 1200px) {
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .logo {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .nav {
+    font-size: 0.875rem;
+  }
+  .nav svg {
+    height: 24px;
+    width: 24px;
+  }
+}
+
+@media (max-width: 700px) {
+  .header {
+    justify-content: center;
+  }
+  .navIcons {
+    display: none;
+  }
+}

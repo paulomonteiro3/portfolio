@@ -4,6 +4,7 @@ import Email from "../assets/email.svg?react";
 import Github from "../assets/github.svg?react";
 import Linkedin from "../assets/linkedin.svg?react";
 import styles from "./Header.module.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -14,16 +15,16 @@ const Header = () => {
         <a>Contato</a>
       </nav>
       <Logo className={`${styles.logo}`} />
-      <nav className={`${styles.nav}`}>
+      <nav className={`${styles.nav} ${styles.navIcons}`}>
         <a>
-          <Email />
+          <Email id="email-cp" alt="testessdwe" />
         </a>
-        <a>
+        <Link to={`https://github.com/paulomonteiro3`}>
           <Github />
-        </a>
-        <a>
+        </Link>
+        <Link to={`https://www.linkedin.com/in/paulomonteiro3/`}>
           <Linkedin />
-        </a>
+        </Link>
       </nav>
     </header>
   );
