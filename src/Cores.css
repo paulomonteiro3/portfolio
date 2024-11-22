@@ -6,4 +6,38 @@
   --color-p4: #EAEAEA;
   --color-p5: #D9D9D9;
   --color-p6: #FFFF;
+  --gradient-0: linear-gradient(to bottom, #7F07DA, #430474);
+  --gradient-0-hover: linear-gradient(to bottom, #390362, #210138);
+}
+
+.color-p0 {
+  color: var(--color-p0);
+}
+
+.color-p1 {
+  color: var(--color-p1);
+}
+
+.color-p2 {
+  color: var(--color-p2);
+}
+
+.color-p3 {
+  color: var(--color-p3);
+}
+
+.color-p4 {
+  color: var(--color-p4);
+}
+
+.color-p5 {
+  color: var(--color-p5);
+}
+
+.color-p6 {
+  color: var(--color-p6);
+}
+
+.gradient-0 {
+  background: var(--gradient-0);
 }

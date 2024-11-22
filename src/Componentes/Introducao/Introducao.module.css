@@ -1,0 +1,98 @@
+.apresentacao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;;
+  margin-top: 160px;
+}
+
+.entry span {
+  background: var(--gradient-0);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.apresentacao p {
+  grid-column: 1;
+}
+
+.divBtns {
+  display: flex;
+  height: 40px;
+  gap: 20px;
+  grid-column: 1;
+  margin-top: 20px;
+
+}
+
+.divBtns button {
+  color: var(--color-p6);
+  cursor: pointer;
+}
+
+.btnCV {
+  background-image: var(--gradient-0);
+  width: 145px;
+  border: 2px solid #7406C8;
+}
+
+.btnCV:hover, .btnCV:focus {
+  background-image: var(--gradient-0-hover);
+  border: 2px solid #480779;
+  transition: .1s;
+  color: var(--color-p4);
+}
+
+.btnContato {
+  background: transparent;
+  padding: 0px 20px;
+  width: max-content;
+  border-image-slice: 1;
+  border-image-source: var(--gradient-0);
+}
+
+.btnContato::after {
+  content: '';
+  display: inline-block;
+  background: url(../../assets/seta-direita.svg) center right no-repeat;
+  margin-left: 10px;
+  width: 20px;
+  height: 10px;
+
+}
+
+.btnContato:hover {
+  border: 2px solid #480779;
+  color: var(--color-p4);
+}
+
+.projetoPrincipal {
+  display: grid;
+  justify-content: right;
+}
+
+.sobre {
+  grid-column: 1;
+  margin-top: 120px;
+  max-height: max-content;
+  max-width: 40ch;
+}
+
+.js {
+  color: #EDDB19;
+}
+
+.react {
+  color: #2483FF;
+}
+
+.ui {
+  color: #9D2ADF;
+}
+
+.html {
+  color: #E9613F;
+}
+
+.css {
+  color: #596ADC;
+}
