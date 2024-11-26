@@ -6,6 +6,7 @@ import "./Fonts.css";
 import "./Cores.css";
 import { BrowserRouter } from "react-router-dom";
 import Introducao from "./Componentes/Introducao/Introducao";
+import Habilidades from "./Componentes/Habilidades/Habilidades";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <BrowserRouter>
         <Header />
         <Introducao />
+        <Habilidades />
       </BrowserRouter>
     </div>
   );

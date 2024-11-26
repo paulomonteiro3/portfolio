@@ -1,0 +1,33 @@
+.habSection {
+  display: grid;
+  margin-top: 160px;
+}
+
+.habDisplay {
+  margin-top: 160px;
+  text-align: center;
+  margin-bottom: 600px;
+}
+
+.habContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 40px;
+}
+
+.habilidadesItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 8.75rem;
+  height: 7.5rem;
+  border: 2px solid;
+  border-image-slice: 1;
+  border-image-source: var(--gradient-0);
+}
+
+.habilidadesItem p {
+  margin-top: 10px;
+}
