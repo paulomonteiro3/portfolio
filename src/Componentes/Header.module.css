@@ -67,4 +67,7 @@
   .navIcons {
     display: none;
   }
+  .nav {
+    font-size: 1rem;
+  }
 }

@@ -1,6 +1,6 @@
 .apresentacao {
   display: grid;
-  grid-template-columns: 1fr 1fr;;
+  grid-template-columns: 1fr 1fr;
   margin-top: 160px;
 }
 
@@ -11,20 +11,15 @@
   -webkit-text-fill-color: transparent;
 }
 
-.apresentacao p {
-  grid-column: 1;
-}
-
-.divBtns {
+.BtnsContainer {
   display: flex;
   height: 40px;
   gap: 20px;
   grid-column: 1;
   margin-top: 20px;
-
 }
 
-.divBtns button {
+.BtnsContainer button {
   color: var(--color-p6);
   cursor: pointer;
 }
@@ -32,13 +27,14 @@
 .btnCV {
   background-image: var(--gradient-0);
   width: 145px;
-  border: 2px solid #7406C8;
+  border: 2px solid #7406c8;
 }
 
-.btnCV:hover, .btnCV:focus {
+.btnCV:hover,
+.btnCV:focus {
   background-image: var(--gradient-0-hover);
   border: 2px solid #480779;
-  transition: .1s;
+  transition: 0.1s;
   color: var(--color-p4);
 }
 
@@ -51,13 +47,12 @@
 }
 
 .btnContato::after {
-  content: '';
+  content: "";
   display: inline-block;
   background: url(../../assets/seta-direita.svg) center right no-repeat;
   margin-left: 10px;
   width: 20px;
   height: 10px;
-
 }
 
 .btnContato:hover {
@@ -67,7 +62,15 @@
 
 .projetoPrincipal {
   display: grid;
-  justify-content: right;
+  grid-row: 1;
+  grid-column: 2;
+  justify-self: right;
+  max-width: max-content;
+  max-height: max-content;
+}
+
+.projetoPrincipal img {
+  object-fit: cover;
 }
 
 .sobre {
@@ -76,23 +79,62 @@
   max-height: max-content;
   max-width: 40ch;
 }
+.sobre2 {
+  display: none;
+}
 
 .js {
-  color: #EDDB19;
+  color: #eddb19;
 }
 
 .react {
-  color: #2483FF;
+  color: #2483ff;
 }
 
 .ui {
-  color: #9D2ADF;
+  color: #9d2adf;
 }
 
 .html {
-  color: #E9613F;
+  color: #e9613f;
 }
 
 .css {
-  color: #596ADC;
+  color: #596adc;
+}
+
+@media (max-width: 1200px) {
+  .entry h1 {
+    font-size: 1.5rem;
+  }
+  .apresentacao p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .apresentacao {
+    text-align: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr 0.5fr;
+    justify-items: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .entry h1 {
+    font-size: 2rem;
+  }
+
+  .projetoPrincipal {
+    grid-row: 2;
+    grid-column: 1;
+    justify-self: center;
+  }
+  .sobre {
+    display: none;
+  }
+  .sobre2 {
+    display: block;
+  }
 }
