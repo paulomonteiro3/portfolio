@@ -1,0 +1,27 @@
+.titulo {
+  text-align: center;
+  margin: 120px;
+  
+}
+
+.projetosContainer {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.projeto {
+  width: 418px;
+  height: 545px;
+}
+
+.projeto h3 {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1030px) {
+  .projetosContainer {
+    grid-template-columns: 1fr;
+  }
+}

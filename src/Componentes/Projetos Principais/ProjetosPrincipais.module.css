@@ -98,7 +98,7 @@
     grid-template-columns: 1fr;
   }
   .projetoBG, .projetoBG.right {
-    height: 500px;
+    height: 700px;
     background: none;
   }
 }

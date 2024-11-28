@@ -8,6 +8,7 @@ import { BrowserRouter } from "react-router-dom";
 import Introducao from "./Componentes/Introducao/Introducao";
 import Habilidades from "./Componentes/Habilidades/Habilidades";
 import ProjetosPrincipais from "./Componentes/Projetos Principais/ProjetosPrincipais";
+import Projetos from "./Componentes/Projetos/Projetos";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Introducao />
         <Habilidades />
         <ProjetosPrincipais />
+        <Projetos />
       </BrowserRouter>
     </div>
   );
