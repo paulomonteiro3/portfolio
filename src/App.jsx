@@ -9,6 +9,7 @@ import Introducao from "./Componentes/Introducao/Introducao";
 import Habilidades from "./Componentes/Habilidades/Habilidades";
 import ProjetosPrincipais from "./Componentes/Projetos Principais/ProjetosPrincipais";
 import Projetos from "./Componentes/Projetos/Projetos";
+import Contato from "./Componentes/Contato/Contato";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Habilidades />
         <ProjetosPrincipais />
         <Projetos />
+        <Contato />
       </BrowserRouter>
     </div>
   );
