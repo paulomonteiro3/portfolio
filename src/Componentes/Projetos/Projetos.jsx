@@ -4,7 +4,7 @@ import Projeto from "../../assets/foto-projeto2.png";
 
 const Projetos = () => {
   return (
-    <section className={`container`}>
+    <section>
       <h1 className={`${styles.titulo} font-1-xl color-p4`}>Outros Projetos</h1>
       <div className={`${styles.projetosContainer}`}>
         <div className={`${styles.projeto}`}>

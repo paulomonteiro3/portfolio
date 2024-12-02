@@ -1,19 +1,14 @@
 .titulo {
   text-align: center;
   margin: 120px;
-  
 }
 
 .projetosContainer {
   display: grid;
   justify-items: center;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
-}
-
-.projeto {
-  width: 418px;
-  height: 545px;
+  gap: 100px;
+  margin-bottom: 120px;
 }
 
 .projeto h3 {
@@ -23,5 +18,14 @@
 @media (max-width: 1030px) {
   .projetosContainer {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0;
+  }
+  .titulo {
+    font-size: 1.7rem;
   }
 }

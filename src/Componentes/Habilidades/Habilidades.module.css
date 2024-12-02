@@ -38,3 +38,9 @@
     margin-top: 120px;
   }
 }
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0;
+  }
+}

@@ -171,3 +171,32 @@
     display: block;
   }
 }
+
+@media (max-width: 550px) {
+  .btnCV,
+  .btnContato {
+    font-size: 0.75rem;
+  }
+  .btnCV {
+    width: 120px;
+  }
+  .btnContato {
+    width: 160px;
+  }
+  .btnContato::after {
+    display: none;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .entry h1 {
+    font-size: 1.5rem;
+  }
+  .apresentacao p {
+    font-size: .875rem;
+  }
+  .container {
+    padding: 0;
+  }
+}
