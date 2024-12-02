@@ -8,7 +8,7 @@ import Figma from "../../assets/figma.svg"
 
 const Habilidades = () => {
   return (
-    <section className="container">
+    <section className="container" id="habilidades">
       <div className={`${styles.habDisplay}`}>
         <h1 className="color-p4">Habilidades</h1>
         <div className={`${styles.habContainer}`}>
