@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/logo.svg?react";
+import Logo from "../assets/logo.svg";
 import Email from "../assets/email.svg";
 import Github from "../assets/github.svg";
 import Linkedin from "../assets/linkedin.svg";
