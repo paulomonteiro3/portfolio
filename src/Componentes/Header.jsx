@@ -5,11 +5,8 @@ import Github from "../assets/github.svg?react";
 import Linkedin from "../assets/linkedin.svg?react";
 import styles from "./Header.module.css";
 import { Link } from "react-router-dom";
-import ScrollSuave from "./scripts/ScrollSuave";
 
 const Header = () => {
-  const scrollSuave = new ScrollSuave('[data-menu="suave"] a[href^="#"]')
-  scrollSuave.init()
   return (
     <header className={`${styles.header} container`}>
       <nav className={`${styles.nav}`} data-menu="suave">
@@ -19,7 +16,7 @@ const Header = () => {
       </nav>
       <Logo className={`${styles.logo}`} />
       <nav className={`${styles.nav} ${styles.navIcons}`}>
-        <a>
+        <a href="#contato">
           <Email />
         </a>
         <Link to={`https://github.com/paulomonteiro3`}>

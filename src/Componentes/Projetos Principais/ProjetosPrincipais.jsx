@@ -8,7 +8,7 @@ const ProjetosPrincipais = () => {
     "https://paulomonteiro3.github.io/animais-fantasticos/";
   const bikCraft = "https://paulomonteiro3.github.io/bikcraft/";
   return (
-    <section className={`${styles.projetosContainer}`} id="projetos">
+    <section className={`${styles.projetosContainer}`} id="projetos" data-anime="scroll">
       <h1 className="font-1-xl color-p4">Projetos Principais</h1>
       <div className={`${styles.projetoContainer} ${styles.projetoBG}`}>
         <div className={`${styles.projetoLImg}`}>

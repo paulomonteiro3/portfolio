@@ -21,19 +21,19 @@ const Introducao = () => {
           </button>
         </div>
         <div className={`${styles.sobre}`}>
-        <h1 className="font-1-xl color-p4">Sobre mim</h1>
-        <p className="color-p5">
-          Desenvolvedor Front End com experiência em
-          <span className={`${styles.js}`}> JavaScript</span>,{" "}
-          <span className={`${styles.react}`}>React</span>,{" "}
-          <span className={`${styles.ui}`}>UI Design</span>,{" "}
-          <span className={`${styles.html}`}>HTML</span>,{" "}
-          <span className={`${styles.css}`}>CSS</span>. Sou um desenvolvedor
-          front-end apaixonado por criar experiências digitais agradáveis e
-          intuitivas. Sempre em busca de desafios, minha missão é desenvolver
-          interfaces que não só atendem, mas encantam os usuários.
-        </p>
-      </div>
+          <h1 className="font-1-xl color-p4">Sobre mim</h1>
+          <p className="color-p5">
+            Desenvolvedor Front End com experiência em
+            <span className={`${styles.js}`}> JavaScript</span>,{" "}
+            <span className={`${styles.react}`}>React</span>,{" "}
+            <span className={`${styles.ui}`}>UI Design</span>,{" "}
+            <span className={`${styles.html}`}>HTML</span>,{" "}
+            <span className={`${styles.css}`}>CSS</span>. Sou um desenvolvedor
+            front-end apaixonado por criar experiências digitais agradáveis e
+            intuitivas. Sempre em busca de desafios, minha missão é desenvolver
+            interfaces que não só atendem, mas encantam os usuários.
+          </p>
+        </div>
       </div>
 
       <div className={`${styles.sobre2}`}>
@@ -51,16 +51,25 @@ const Introducao = () => {
         </p>
       </div>
 
-      <div className={`${styles.projetoPrincipal}`}>
-        <a href="https://dogsreact.vercel.app">
-          <img
-            src={ProjetoPrincipal}
-            alt="Projeto Principal"
-            width={"700px"}
-            height={"500px"}
-          />
-        </a>
-      </div>
+      <a href="https://dogsreact.vercel.app">
+        <div className={`${styles.projetoPrincipal}`}>
+          <div className={`${styles.card}`}>
+            <img
+              src={ProjetoPrincipal}
+              alt="Projeto Principal"
+              width={"700px"}
+              height={"500px"}
+            />
+            <div className={`${styles.intro}`}>
+              <h1 className="font-1-xl">Dogs</h1>
+              <p className="font-1-m color-p5">
+                O projeto Dogs é um projeto que você pode criar uma conta na rede social, fazer login, fazer postagem, comentar em fotos e muito mais. O projeto foi desenvolvido com HTML, CSS e ReactJS.
+              </p>
+              <button className={`${styles.btn} font-1-s color-p4`}>Ver projeto</button>
+            </div>
+          </div>
+        </div>
+      </a>
     </section>
   );
 };

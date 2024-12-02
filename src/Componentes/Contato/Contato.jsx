@@ -11,20 +11,30 @@ const Contato = () => {
       <h1 className={`${styles.titulo} font-1-xl color-p6`}>Contato</h1>
       <div className={`${styles.contatoContainer}`}>
         <div className={`${styles.contatoItem}`}>
-          <img src={Telefone} />
+          <a href="https://api.whatsapp.com/send?phone=5598984348397">
+            <img src={Telefone} />
+          </a>
           <span className="color-p5 font-1-xs">+55 98 984348397</span>
         </div>
         <div className={`${styles.contatoItem}`}>
-          <img src={Github} />
+          <a href="https://github.com/paulomonteiro3">
+            <img src={Github} />
+          </a>
           <span className="color-p5 font-1-xs">@paulomonteiro3</span>
         </div>
         <div className={`${styles.contatoItem}`}>
-          <img src={Linkedin} />
+          <a href="https://www.linkedin.com/in/paulomonteiro3/">
+            <img src={Linkedin} />
+          </a>
           <span className="color-p5 font-1-xs">@paulomonteiro3</span>
         </div>
         <div className={`${styles.contatoItem}`}>
-          <img src={Email} />
-          <span class={`btn color-p5 font-1-xs`}>paulomonteirop22@gmail.com</span>
+          <a href="mailto:paulomonteirop22@gmail.com">
+            <img src={Email} />
+          </a>
+          <span class={`btn color-p5 font-1-xs`}>
+            paulomonteirop22@gmail.com
+          </span>
         </div>
       </div>
     </section>

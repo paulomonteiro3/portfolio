@@ -4,6 +4,10 @@
   --font-1-xxl: "Poppins", Arial, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
 }
