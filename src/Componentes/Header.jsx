@@ -1,8 +1,8 @@
 import React from "react";
-import Logo from "../assets/logo.svg";
-import Email from "../assets/email.svg";
-import Github from "../assets/github.svg";
-import Linkedin from "../assets/linkedin.svg";
+import Logo from "../assets/logo.svg?react";
+import Email from "../assets/email.svg?react";
+import Github from "../assets/github.svg?react";
+import Linkedin from "../assets/linkedin.svg?react";
 import styles from "./Header.module.css";
 import { Link } from "react-router-dom";
 
@@ -17,13 +17,13 @@ const Header = () => {
       <Logo className={`${styles.logo}`} />
       <nav className={`${styles.nav} ${styles.navIcons}`}>
         <a href="#contato">
-          <img src={Email} />
+          <Email />
         </a>
         <Link to={`https://github.com/paulomonteiro3`}>
-        <img src={Github} />
+        <Github />
         </Link>
         <Link to={`https://www.linkedin.com/in/paulomonteiro3/`}>
-        <img src={Linkedin} />
+        <Linkedin />
         </Link>
       </nav>
     </header>
