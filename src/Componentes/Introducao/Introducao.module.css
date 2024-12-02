@@ -196,7 +196,7 @@
   .apresentacao p {
     font-size: .875rem;
   }
-  .container {
+  :global(.container) {
     padding: 0;
   }
 }
