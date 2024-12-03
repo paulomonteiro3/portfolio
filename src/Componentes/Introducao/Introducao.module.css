@@ -168,7 +168,8 @@
     display: none;
   }
   .sobre2 {
-    display: block;
+    display: grid;
+    grid-row: 3;
   }
 }
 
